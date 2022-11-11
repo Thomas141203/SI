@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
+    <head>
+        <meta  charset="utf-8">
+        <title>Exercice 4</title>
+        <script type="text/javascript" charset="UTF-8" src="../../libs/three/three.js"></script>
+        <script type="text/javascript" src="../../libs/util/dat.gui.js"></script>
+        <script type="text/javascript" src="../../libs/util/Stats.js"></script>
+        <script type="text/javascript" src="../../libs/util/util.js"></script>
+        <script type="text/javascript" src="../js/geometrie.js"></script>
+        <script type="text/javascript" src="../js/ModeleMateriaux.js"></script>
+        <script type="text/javascript" src="../js/cameraExo4.js"></script>
+        <script type="text/javascript" src="../js/bezier.js"></script>
+        <script type="text/javascript" src="../js/trajectoire.js"></script>
+        <script type="text/javascript" src="../js/exo4.js"></script>
+        <link rel="stylesheet" href="../css/style.css">
+    </head>
+
+    <body onload="init()">
+        <div id="webgl"></div>
+        <form id="controle" action="mailto:toto@wanadoo.fr" method="post">
+            <fieldset>
+                <legend>Contrôle de la camara et affichage du repère</legend>
+                <div>
+                    <table id="TableauCamera">
+                        <tr>
+                            <th>Géométrie</th>
+                            <th>Abscisse</th>
+                            <th>Ordonnée</th>
+                            <th>Cote</th>
+                        </tr>
+
+                        <tr>
+                            <td>Position</td>
+                            <td><input type="number" id="PosX"  name="PosX" min="-20" max="20" step="0.25" value="0"/></td>
+                            <td><input type="number" id="PosY"  name="PosY" min="-20" max="20" step="0.25" value="-4"/></td>
+                            <td><input type="number" id="PosZ"  name="PosZ" min="-20" max="20" step="0.25" value="0"/></td>
+                        </tr>
+                        
+                        <tr>
+                            <td>Direction</td>
+                            <td><input type="number" id="DirX"  name="DirX" min="-20" max="20" step="0.25" value="0"/></td>
+                            <td><input type="number" id="DirY"  name="DirY" min="-20" max="20" step="0.25" value="0"/></td>
+                            <td><input type="number" id="DirZ"  name="DirZ" min="-20" max="20" step="0.25" value="0.5"/></td>
+                        </tr>
+                    </table>
+                </div>
+            </fieldset>
+        </form>
+        <p id="result"></p>
+    </body>
+</html>

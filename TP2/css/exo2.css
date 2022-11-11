@@ -1,0 +1,25 @@
+body{ background-color:#AAAAAA; }
+
+#webgl{ background-color:white; }
+
+
+#TableauCamera{
+    text-align:center;
+    border : solid red 2px;
+    background-color:green;
+    border-collapse:collapse;
+}
+
+#TableauCamera td, #TableauCamera th{ border : solid red 2px; }
+
+input[type='number']{
+    width:2cm;
+    background-color:yellow;
+    color:blue;
+}
+
+fieldset{
+    color : white;
+    background-color:black;
+    font-weight:900;
+}

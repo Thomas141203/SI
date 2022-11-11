@@ -1,0 +1,55 @@
+body {
+    background-color:#AAAAAA;
+   /*margin: 0.5;
+       overflow: hidden;*/
+   }
+   
+   #webgl{
+    /*border:solid 2px red;
+    margin-left: 0.5cm;
+    width:95%;
+    height:95%;*/
+    background-color:white;
+   }
+   
+   
+   #TableauCamera{
+    margin-top:0.1cm;
+    text-align:center;
+    border : solid red 2px;
+    background-color:green;
+    border-collapse:collapse;
+   }
+   
+   #TableauCamera td, #TableauCamera th{
+    border : solid red 2px;
+   }
+   
+   input[type='number']{
+    width:2cm;
+    background-color:yellow;
+    color:blue;
+   }
+   
+   fieldset{
+    color : white;
+    background-color:black;
+    font-weight:900;
+   }
+   
+   #fleche{
+    color:#99FF99;
+    background-color:#FF0000;
+   }
+   
+   #noir{
+    background-color:white;
+    color:black;
+    font-weight:900;
+   }
+   
+   #orange{
+    color:#884400;
+    background-color:#88AAFF;
+    font-weight:900;
+   }

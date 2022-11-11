@@ -1,0 +1,43 @@
+body{ background-color:#AAAAAA; }
+
+#webgl{ background-color:white; }
+
+#directe, #indirecte{
+    background-color : #000000;
+    color : #FFFFFF;
+    font-weight : 900;
+}
+
+th, td{ border : solid red 2px; }
+
+#TableauCamera{
+    text-align:center;
+    border : solid red 2px;
+    background-color:green;
+    border-collapse:collapse;
+}
+
+#vecU{
+    color:#FFFF00;
+    background-color:#0000FF;
+    font-weight:900;
+}
+
+
+#vecV{
+    color:#FF00FF;
+    background-color:#00FF00;
+    font-weight:900;
+}
+
+
+#vecW{
+    color:#00FFFF;
+    background-color:#FF0000;
+    font-weight:900;
+}
+
+#vec0{
+    background-color:#FFFFFF;
+    font-weight:900;
+}
